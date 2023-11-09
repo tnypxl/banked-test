@@ -1,0 +1,26 @@
+{
+  "name": "banked-test",
+  "version": "1.0.0",
+  "description": "## Notes",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnypxl/banked-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnypxl/banked-test/issues"
+  },
+  "homepage": "https://github.com/tnypxl/banked-test#readme",
+  "devDependencies": {
+    "cypress": "^13.5.0"
+  }
+}
