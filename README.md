@@ -16,7 +16,7 @@ In future iterations I'd improve this repo by doing one or more the following:
 
 ### Issue with the 'Pay By Bank' flow
 
-Searching for and selecting a bank is very flaky. A new url occurs aftering clicking on the search field causing the results to go away. My recommendation would be to determine what's causing the page to re-render.
+Searching for and selecting a bank is very flaky. A new url occurs aftering clicking on the search field causing the results to go away. I tried all manner of implicit and explicit waits and neither solves it completely. My recommendation would be to determine what's causing the page to re-render and fixing it. There is a screenshot for context: `screenshots/payByBank.spec.js/Happy Path -- creates payment successfully (failed).png`
 
 ## Run the tests
 
