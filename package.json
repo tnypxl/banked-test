@@ -7,6 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:docker": "docker build -t banked-cypress-tests . && docker run banked-cypress-tests",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +24,7 @@
   },
   "homepage": "https://github.com/tnypxl/banked-test#readme",
   "devDependencies": {
+    "@types/cypress": "^1.1.3",
     "cypress": "^13.5.0"
   }
 }
